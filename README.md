@@ -23,3 +23,5 @@ Z Algorithm
         return z;
     }
 ```
+https://cp-algorithms.com/string/z-function.html
+https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/solutions/5844897/java-c-python-z-function
