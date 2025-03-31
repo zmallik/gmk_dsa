@@ -4,6 +4,42 @@
 
 ## union and Find
 
+```
+    weight = new int[n];
+    parent = new int[n];
+        
+    void union(int[] edge){
+        int ra = root(edge[0]);
+        int rb = root(edge[1]);
+        if(ra != rb){
+            if(weight[rb] < weight[ra]){
+                int t = rb;
+                rb = ra;
+                ra = t;
+            }
+
+            parent[ra] = rb;
+            weight[rb] += weight[ra];
+        }
+    }
+
+    int root(int i){
+        while(parent[i] != i){
+           parent[i] = parent[i];
+           i = parent[i];
+        }
+
+        return i;
+    }
+```
+
+time complexity:
+First, we must account for the time needed for the initialization of the parent and size arrays, which is equal to O(n).
+With the union-by-rank and path compression optimizations, both Find and Union operations take O(1) 
+time on average (or a(n) time, where a is the inverse Ackermann function that grows really slowly and is considered practically constant).
+
+
+[Link](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/)
 
 
 ## Graph algorithms
