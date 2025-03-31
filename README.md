@@ -1,7 +1,15 @@
 
 
-Graph alorithms
+(Readme Syntax link)[https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax].
 
+## union and Find
+
+
+
+## Graph algorithms
+
+
+## String algorithms
 Z Algorithm
 
 ```
@@ -23,5 +31,5 @@ Z Algorithm
         return z;
     }
 ```
-https://cp-algorithms.com/string/z-function.html
-https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/solutions/5844897/java-c-python-z-function
+(CPP)[https://cp-algorithms.com/string/z-function.html]
+(LC)[https://leetcode.com/problems/find-the-occurrence-of-first-almost-equal-substring/solutions/5844897/java-c-python-z-function]
