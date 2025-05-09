@@ -51,6 +51,9 @@ Priority Queue: Define a Priority Queue which would contain pairs of the type {d
 Dist Array: Define a dist array initialized with a large integer number at the start indicating that the nodes are unvisited initially. This array stores the shortest distances to all the nodes from the source node.
 Parent Array: This array’s sole purpose is to store the parent of a particular node i.e., the node from where that node came while traversing through the graph by Dijkstra’s Algorithm.
 
+![image](https://github.com/user-attachments/assets/969aca7f-a646-4441-bfaa-6051f2661724)
+
+
 
 ## String algorithms
 Z Algorithm
